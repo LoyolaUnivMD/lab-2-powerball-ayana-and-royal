@@ -1,5 +1,6 @@
 import random
 import scanner
+import decimal format
 print out description of the program
 ask for the player's name, store to string name
 set int i to 0

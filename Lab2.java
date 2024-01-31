@@ -20,13 +20,8 @@ class Lab2 {
         System.out.println("This program generates 10 lottery tickets.");
         
         System.out.print("What's your name? ");
-
         String customerName = input.nextLine();
 
-        System.out.println("-----------------");
-        System.out.println("Good luck " + customerName + "!"); // should only say their first name
-        System.out.println("Estimated Jackpot: ");
-        System.out.println("$" + prize); // potential winning prize
-        System.out.println("-----------------");
+        System.out.println("Here are the ticket: ");
     }
 }
