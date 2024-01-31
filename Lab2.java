@@ -25,7 +25,7 @@ class Lab2 {
 
         System.out.println("Here are the ticket: ");
         for (int i = 0; i < 10 ; i++){
-            for(int x = 0; x < 6; x++){
+            for(int x = 0; x < 6 ; x++){
                 System.out.print(fmt.format(rand.nextInt(99)) + " ");
             }
             System.out.println();
