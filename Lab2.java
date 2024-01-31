@@ -10,12 +10,13 @@
 
 import java.util.Scanner;
 import java.util.Random;
-
+import java.text.DecimalFormat;
 class Lab2 {
     public static void main(String[] args) {
         long prize = 225938745L;
         Scanner input = new Scanner(System.in);
-
+        Random rand = new Random();
+        DecimalFormat fmt = new DecimalFormat("#00");
         System.out.println("CS 212 - Lab 2");
         System.out.println("This program generates 10 lottery tickets.");
         
@@ -23,5 +24,11 @@ class Lab2 {
         String customerName = input.nextLine();
 
         System.out.println("Here are the ticket: ");
+        for (int i = 0; i < 10 ; i++){
+            for(int x = 0; x < 6; x++){
+                System.out.print(fmt.format(rand.nextInt(99)) + " ");
+            }
+            System.out.println();
+        }
     }
 }
