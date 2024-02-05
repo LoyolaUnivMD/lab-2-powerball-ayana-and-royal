@@ -1,4 +1,4 @@
-// Programmers:  [Royal Ibeadogbulem]
+// Programmers:  [Royal Ibeadogbulem, Ayana Thompson]
 // Course:  CS 212
 // Due Date: 2/7/2024
 // Lab Assignment: 2
